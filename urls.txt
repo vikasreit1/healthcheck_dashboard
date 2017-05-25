@@ -1,0 +1,16 @@
+#Groupname;InstanceName;URL;Port
+ArtifactoryProd;DBF5;dB;8080
+ArtifactoryProd;DBNode1;dBnode1;8080
+ArtifactoryProd;DBNode2;dBnode2;8080
+
+
+#Jenkins;Master;re-jenkins02.com;80
+Jenkins;F5;Dummyf5;80
+Jenkins;Master1;re-jenkins01.com;443
+Jenkins;Master2;re-jenkins02.com;443
+
+
+ArtifactoryOnPremProd;F5;http://repository.com/artifactory/api/system/ping;80
+ArtifactoryOnPremProd;ArtNode1;http://artifactory01.com/artifactory;80
+ArtifactoryOnPremProd;F5;http://artifactory02.com/artifactory;80
+
